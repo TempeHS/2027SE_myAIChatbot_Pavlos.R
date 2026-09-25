@@ -6,7 +6,6 @@ from chatterbot.trainers import ListTrainer
 # Create the Flask application
 app = Flask(__name__)
 
-list_trainer = ListTrainer(chatbot)
 
 # Initialize the chatbot
 chatbot = ChatBot(
@@ -15,6 +14,7 @@ chatbot = ChatBot(
     database_uri="sqlite:///chatbot_database.sqlite3",
 )
 
+list_trainer = ListTrainer(chatbot)
 # Train the chatbot with English conversations
 trainer = ChatterBotCorpusTrainer(chatbot)
 trainer.train("chatterbot.corpus.english")
