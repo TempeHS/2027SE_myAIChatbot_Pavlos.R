@@ -1,8 +1,8 @@
-# Project Title
+# My AI Chatbot
 Simple overview of use/purpose.
 
 ## Description
-An in-depth paragraph about your project and overview of use.
+I am building an app with an ai inside it that you can speak to.
 
 ## Getting Started
 
@@ -21,13 +21,13 @@ An in-depth paragraph about your project and overview of use.
 Any advice for common problems or issues.
 
 ## Authors
-Contributors names and contact info
+Pavlos Rorris, https://github.com/PavlosR
 
 ## Version History
 * 0.1 - Initial Release
 
 ## License
-This project is licensed under the [NAME HERE] License
+This project is licensed under the GNU GPL v3.0 License
 
 ## Acknowledgments
 Inspiration, code snippets, etc.
